@@ -18,7 +18,6 @@ void DnevnikStudSing::addSingData()
     auto logs =  m_dataBase->getStudDatesList();
     for(auto& stud:logs)
     {
-        qDebug()<<"login:"<<stud.getLogin()<<"   pass:"<<stud.getPassword();
         auto sing = new CookiesHandler(stud.getStudentDates(),stud.getForSingStruct());
         connect(sing,SIGNAL(signalSingDnevnik(QString)),this,SLOT(slotStudSing(QString)));
         connect(sing,SIGNAL(signalNotSingDnevnik(QString)),this,SLOT(slotStudNotSing(QString)));
