@@ -9,14 +9,14 @@ CONFIG -= app_bundle
 
 SOURCES += \
         cookieshandler.cpp\
-        C:\Users\user\Documents\DnevnikDataBase\database.cpp\
-        C:\Users\user\Documents\DnevnikDataBase\singdates.cpp\
+        database.cpp\
+        singdates.cpp\
         dnevnikstudsing.cpp \
         main.cpp
 HEADERS += \
         cookieshandler.h\
-        C:\Users\user\Documents\DnevnikDataBase\database.h \
-        C:\Users\user\Documents\DnevnikDataBase\singdates.h\
+        database.h \
+        singdates.h\
         dnevnikstudsing.h
 
 

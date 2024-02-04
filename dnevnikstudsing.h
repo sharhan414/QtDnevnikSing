@@ -2,7 +2,7 @@
 #define DNEVNIKSTUDSING_H
 
 #include <QObject>
-#include "C:\Users\user\Documents\DnevnikDataBase\database.h"
+#include "database.h"
 #include "cookieshandler.h"
 
 
